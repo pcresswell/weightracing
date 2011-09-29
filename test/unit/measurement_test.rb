@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class MeasurementTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+   def test_make_sure_we_can_fail
+     assert false, 'First Test'
+   end
 end
