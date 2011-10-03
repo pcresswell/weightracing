@@ -36,4 +36,6 @@ group :development, :test do
   gem 'test-unit', '~> 2.0.0'
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'simplecov'
+  gem 'simplecov-rcov'
 end
