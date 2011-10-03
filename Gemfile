@@ -31,3 +31,9 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+group :development, :test do
+  gem 'ci_reporter', '1.6.5'
+  gem 'test-unit', '~> 2.0.0'
+  # Pretty printed test output
+  gem 'turn', :require => false
+end
