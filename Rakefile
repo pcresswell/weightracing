@@ -3,5 +3,9 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
-
+require 'rubygems'
+# Install:
+#  sudo gem install ci_reporter
+gem 'ci_reporter'
+require 'ci/reporter/rake/test_unit' # use this if you're using Test::Unit
 Weightracing::Application.load_tasks
